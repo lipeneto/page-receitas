@@ -1,0 +1,147 @@
+body,html{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-size: 20px;
+}
+.topo{
+    background-color: #ff7200;
+    /* padding: 10px; para nossa versao n fiko legel*/
+text-align: center;
+}
+img{
+   
+}
+
+#cabeca{
+background-image: url('hero_bolo.jpg');
+height: 400px;
+background-size: cover;
+background-position: center ;
+}
+ 
+/* h1{
+    font-weight: bold;
+    text-align: center;
+}
+ul{
+    font-family: 'Roboto', sans-serif;
+color: #ff7200;
+text-align: center;
+font-size: 2em;
+margin: 10px;
+}
+li{
+    color: black;
+    font-size: 16;
+} */
+.content{
+    max-width: 990px;
+margin: auto;
+padding: 0 40px;
+margin-top: 40px;
+
+}
+h1,h2,h3{
+    color: #ff7200;
+
+}
+h1{
+    font-size: 40px;
+}
+h1{
+    margin-bottom: 30px;
+}
+.cartao{
+    /* border: 1px solid; */
+    padding: 40px;
+    margin-top: 50px;
+    border-radius: 20px;
+    cursor: url(./cursor_ingredientes.png);
+}
+#cursor-2{
+    cursor: url("./cursor_intrucoes.png");
+
+}
+
+.cartao:hover{
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+}
+.boto{
+    background-color: #ff7200;
+    padding: 16px;
+    border-radius: 20px;
+
+}
+ a{
+    text-decoration: none;
+    color: white;
+ }
+ li{
+    margin-bottom: 15px;
+    line-height: 20px;
+ }
+.fondu{
+    background-color: #ff7200;
+height: 50px;
+text-align: center;
+padding: 8px;
+width: 100%;
+}
+.fondutxt{
+    font-size: 16px;
+    color: white;
+    margin: auto;
+  0
+
+}
+p{
+    line-height: 28px;
+}
+aes{
+    text-decoration: none;
+    color: wheat;
+}
+@media screen and (max-width:700px){
+    #cabeca{
+        background-image: url('hero_bolo.jpg');
+        height: 260px;
+        background-size: cover;
+        background-position: center ;
+
+        }
+        .content{
+            max-width: 800px;
+        margin: auto;
+        padding: 0 40px;
+        margin-top: 40px;
+        }
+        .cartao{
+            /* border: 1px solid; */
+            padding: 30px;
+            border-radius: 20px;
+            cursor: url(./cursor_ingredientes.png);
+        }
+        .boto{
+            background-color: #ff7200;
+            padding: 10px;
+            border-radius: 20px;
+        
+        }
+        
+        
+          
+}
+
+/* .boto{
+    text-align: center;
+    margin: 30px;
+}
+a{
+    border: solid ;
+    background-color: #ff7200;
+border-radius: 5px;
+padding: 15px;
+text-decoration: none;
+color: white;
+
+} */
